@@ -389,12 +389,33 @@ $white-smoke: #D5D8DB;
   background: rgba(30, 212, 0, 0.40) no-repeat;
   background-image:url(../img/fish-bg.png);
   background-size:cover;
-  
+
   h2{
     color:$white;
     @include Roboto(56px,700,normal);
     text-transform: uppercase; 
   }
+
+  .imgs-cont__ins{
+    @include flex(flex-start,flex-start,0px);
+    &-p{
+      position:absolute;
+      background: rgba(0, 0, 0, 0.85); 
+      color:$white;
+      @include Lato(18px,400,18px);
+      text-transform: uppercase;
+      padding:4px 8px;
+      margin:12px 8px;
+    }
+    &-img{
+      width: 514px;
+      height: 342px; 
+    }
+    svg{
+      position:absolute;
+      margin:157px 237px 145px;
+    }
+}
   .imgs-cont__in{
   &-p{
     margin:8px 12px;
@@ -405,7 +426,7 @@ $white-smoke: #D5D8DB;
     position:absolute;
     background: rgba(0, 0, 0, 0.85); 
     color:$white;
-    @include Roboto(18px,400,18px);
+    @include Lato(18px,400,18px);
     padding:4px 8px;
     margin:10px 7px;
   }
