@@ -152,13 +152,10 @@ $white-smoke: #D5D8DB;
   }
 }
 
-
-
 .footer{
   @include flex(space-around, center, 0);
-  // background: url(../img/mountbg.png);
-  // background-size: cover;
-  // background-repeat: no-repeat;
+  background: url(../img/mount-bg.png) no-repeat;
+  background-size: cover;
   padding:96px 0px;
   &__logo{
     @include Roboto(32px, 700, 32px );
@@ -327,6 +324,35 @@ $white-smoke: #D5D8DB;
   }
 }
 
+.imgs-cont{
+  @include flex(center,center,40px);
+  flex-direction:row;
+  &__in{
+    @include flex(flex-start,flex-start,0px);
+    &-p{
+      position:absolute;
+      background: rgba(0, 0, 0, 0.85); 
+      color:$white;
+      @include Roboto(18px,400,18px);
+      text-transform: uppercase;
+      padding:5px 8px;
+      margin-top:10px;
+    }
+    &-smallimg{
+      width: 441px;
+      height: 294px;   
+    }
+    &-img{
+      width: 514px;
+      height: 342px;
+    }
+    svg{
+        position:absolute;
+        margin:129px 204px;
+    }
+}
+}
+
 .pop-ways{
   padding:124px 150px 72px 150px;
   @include flex(center,center,40px);
@@ -335,27 +361,6 @@ $white-smoke: #D5D8DB;
     color:$grey;
     @include Roboto(56px,700,normal);
     text-transform: uppercase; 
-  }
-  .imgs-cont{
-    @include flex(center,center,40px);
-    flex-direction:row;
-    &__in{
-      @include flex(flex-start,flex-start,0px);
-    }
-    img{
-      width: 514px;
-      height: 342px;
-    }
-    p{
-      position:absolute;
-      background: rgba(0, 0, 0, 0.85); 
-      color:$white;
-      @include Roboto(18px,400,18px);
-      color: #FFF;
-      text-transform: uppercase;
-      padding:5px 8px;
-      margin-top:10px;
-    }
   }
   .addition{
     padding-top:10px;
@@ -373,3 +378,43 @@ $white-smoke: #D5D8DB;
     }
   }
 }
+
+.trav-stor{
+  @include flex(center,center,32px);
+  flex-direction:column;
+  padding:48px 150px 64px;
+  mix-blend-mode: multiply; 
+  background: rgba(30, 212, 0, 0.40) no-repeat;
+  background-image:url(../img/fish-bg.png);
+  background-size:cover;
+  
+  h2{
+    color:$white;
+    @include Roboto(56px,700,normal);
+    text-transform: uppercase; 
+  }
+  .imgs-cont__in{
+    &spec{
+      svg{
+        position:absolute;
+        left:794px;
+        margin:157px 137px 145px;
+      }
+    }
+  &-p{
+    margin:8px 12px;
+    padding:4px 8px;
+    text-transform: none;
+  }
+  &-psmall{
+    position:absolute;
+    background: rgba(0, 0, 0, 0.85); 
+    color:$white;
+    @include Roboto(18px,400,18px);
+    padding:4px 8px;
+    margin:10px 7px;
+  }
+}
+}
+
+

@@ -120,6 +120,8 @@
   justify-content: space-around;
   align-items: center;
   gap: 0;
+  background: url(../img/mount-bg.png) no-repeat;
+  background-size: cover;
   padding: 96px 0px;
 }
 .footer__logo {
@@ -313,6 +315,44 @@
   padding: 20px 50px;
 }
 
+.imgs-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: row;
+}
+.imgs-cont__in {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0px;
+}
+.imgs-cont__in-p {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin-top: 10px;
+}
+.imgs-cont__in-smallimg {
+  width: 441px;
+  height: 294px;
+}
+.imgs-cont__in-img {
+  width: 514px;
+  height: 342px;
+}
+.imgs-cont__in svg {
+  position: absolute;
+  margin: 129px 204px;
+}
+
 .pop-ways {
   padding: 124px 150px 72px 150px;
   display: flex;
@@ -328,36 +368,6 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-}
-.pop-ways .imgs-cont {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  flex-direction: row;
-}
-.pop-ways .imgs-cont__in {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0px;
-}
-.pop-ways .imgs-cont img {
-  width: 514px;
-  height: 342px;
-}
-.pop-ways .imgs-cont p {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.85);
-  color: #fff;
-  font-family: "Roboto Slab", serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 18px;
-  color: #FFF;
-  text-transform: uppercase;
-  padding: 5px 8px;
-  margin-top: 10px;
 }
 .pop-ways .addition {
   padding-top: 10px;
@@ -382,4 +392,46 @@
   font-weight: 500;
   line-height: 18px;
   text-align: center;
+}
+
+.trav-stor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-direction: column;
+  padding: 48px 150px 64px;
+  mix-blend-mode: multiply;
+  background: rgba(30, 212, 0, 0.4) no-repeat;
+  background-image: url(../img/fish-bg.png);
+  background-size: cover;
+}
+.trav-stor h2 {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.trav-stor .imgs-cont__inspec svg {
+  position: absolute;
+  left: 794px;
+  margin: 157px 137px 145px;
+}
+.trav-stor .imgs-cont__in-p {
+  margin: 8px 12px;
+  padding: 4px 8px;
+  text-transform: none;
+}
+.trav-stor .imgs-cont__in-psmall {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 4px 8px;
+  margin: 10px 7px;
 }/*# sourceMappingURL=style.css.map */
