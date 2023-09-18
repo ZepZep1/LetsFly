@@ -342,12 +342,10 @@
   margin-top: 10px;
 }
 .imgs-cont__in-smallimg {
-  width: 441px;
-  height: 294px;
+  width: 465px;
 }
 .imgs-cont__in-img {
-  width: 514px;
-  height: 342px;
+  width: 465px;
 }
 .imgs-cont__in svg {
   position: absolute;
@@ -434,8 +432,7 @@
   margin: 12px 8px;
 }
 .trav-stor .imgs-cont__ins-img {
-  width: 514px;
-  height: 342px;
+  width: 465px;
 }
 .trav-stor .imgs-cont__ins svg {
   position: absolute;
