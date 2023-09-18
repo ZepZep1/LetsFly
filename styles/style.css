@@ -153,8 +153,7 @@
   position: absolute;
   margin-top: 640px;
 }
-
-.call-to-action {
+.bg-photo .call-to-action {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,7 +162,7 @@
   background-color: rgba(0, 0, 0, 0.85);
   padding: 48px;
 }
-.call-to-action h1 {
+.bg-photo .call-to-action h1 {
   font-family: "Lora", serif;
   font-size: 84px;
   font-weight: 700;
@@ -172,14 +171,14 @@
   text-transform: uppercase;
   text-align: center;
 }
-.call-to-action span {
+.bg-photo .call-to-action span {
   font-family: "Lato", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
   color: #fff;
 }
-.call-to-action .btn {
+.bg-photo .call-to-action .btn {
   padding: 21px 110px;
 }
 
@@ -242,5 +241,145 @@
   font-size: 40px;
   font-weight: 400;
   line-height: 32px;
+  text-align: center;
+}
+
+.barc-cont {
+  background: url(../img/barcelona.png) no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  width: 100%;
+  min-height: 758px;
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  gap: 0px;
+  flex-direction: column;
+}
+.barc-cont__tittle1 {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 56px 0px 16px;
+}
+.barc-cont__tittle2 {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 144px;
+  font-weight: 700;
+  line-height: 144px;
+  text-transform: uppercase;
+}
+.barc-cont__tittle3 {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 16px 0px 32px;
+}
+.barc-cont p {
+  text-align: center;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 54%;
+}
+.barc-cont__line {
+  top: -52px;
+  left: 389px;
+  border-bottom: 3px solid #fff;
+  width: 300px;
+  height: 0px;
+  margin: 16px 0px 40px;
+}
+.barc-cont h4 {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.barc-cont__btn {
+  padding: 20px 50px;
+}
+
+.pop-ways {
+  padding: 124px 150px 72px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+}
+.pop-ways h2 {
+  color: #333;
+  font-family: "Roboto Slab", serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.pop-ways .imgs-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: row;
+}
+.pop-ways .imgs-cont__in {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0px;
+}
+.pop-ways .imgs-cont img {
+  width: 514px;
+  height: 342px;
+}
+.pop-ways .imgs-cont p {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin-top: 10px;
+}
+.pop-ways .addition {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}
+.pop-ways .addition__btn {
+  padding: 19px 62px;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.pop-ways .addition p {
+  color: #333;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */

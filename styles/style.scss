@@ -195,7 +195,7 @@ $white-smoke: #D5D8DB;
   position:absolute;
   margin-top:640px;
   }
- }
+ 
 
  .call-to-action{
   @include flex(center, center , 32px);
@@ -219,6 +219,7 @@ $white-smoke: #D5D8DB;
   .btn{
     padding:21px 110px;
   }
+}
 }
 
 .about-us{
@@ -270,5 +271,105 @@ $white-smoke: #D5D8DB;
       @include Quicksand(40px,400,32px);
       text-align: center;
   }
+  }
+}
+
+.barc-cont{
+  background: url(../img/barcelona.png) no-repeat;
+  background-size:cover;
+  min-width: 100%;
+  width: 100%;
+  min-height: 758px;
+  @include flex(none,center,0px);
+  flex-direction:column;
+
+  &__tittle1{
+    color:$white;
+    @include Roboto(56px, 700, normal);
+    text-transform: uppercase;
+    padding:56px 0px 16px;
+  }
+  &__tittle2{
+    color:$white;
+    @include Roboto(144px, 700, 144px);
+    text-transform: uppercase; 
+  }
+  &__tittle3{
+    color:$white;
+    @include Quicksand(24px,500,18px);
+    text-transform: uppercase;
+    padding: 16px 0px 32px;
+  }
+  p{
+    text-align: center; 
+    color:$white;
+    @include Quicksand(24px,400,32px);
+    width:54%;
+  }
+  &__line{
+    top: -52px;
+    left: 389px;
+    border-bottom: 3px solid $white;
+    width: 300px;
+    height: 0px;
+    margin:16px 0px 40px;
+  }
+
+  h4{
+    color:$white;
+    @include Quicksand(24px,400,32px);
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom:25px;
+  }
+  &__btn{
+    padding:20px 50px;
+  }
+}
+
+.pop-ways{
+  padding:124px 150px 72px 150px;
+  @include flex(center,center,40px);
+  flex-direction:column;
+  h2{
+    color:$grey;
+    @include Roboto(56px,700,normal);
+    text-transform: uppercase; 
+  }
+  .imgs-cont{
+    @include flex(center,center,40px);
+    flex-direction:row;
+    &__in{
+      @include flex(flex-start,flex-start,0px);
+    }
+    img{
+      width: 514px;
+      height: 342px;
+    }
+    p{
+      position:absolute;
+      background: rgba(0, 0, 0, 0.85); 
+      color:$white;
+      @include Roboto(18px,400,18px);
+      color: #FFF;
+      text-transform: uppercase;
+      padding:5px 8px;
+      margin-top:10px;
+    }
+  }
+  .addition{
+    padding-top:10px;
+    @include flex(center,center,8px);
+    flex-direction: column;
+    &__btn{
+      padding:19px 62px;
+      color:$white;
+      @include Quicksand(20px,700,18px);
+    }
+    p{
+      color:$grey;
+      @include Quicksand(14px,500,18px);
+      text-align: center;
+    }
   }
 }
